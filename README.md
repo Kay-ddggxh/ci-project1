@@ -3,6 +3,15 @@ Welcome to Lowland Pride! This is the website of the Burren Lowland's first LGBT
 The site is targeted towards members of the LGBTQ+ community aged 14-25 who live in the rural areas of the at the base of the Burren, centering on Gort, Co. Galway and reaching into West Clare.
 The Lowland Pride's site provides young people with a schedule of weekly meet-ups, dates and information on special events and how to join the group.
 
+## Design
+This site was created and designed with young adults and teenagers in mind who are looking for information and access to a very specific group in their own locality. The content is short and informative, the style colourful and reassuring.
+
+### Wireframes
+- The first wireframe in [Figma](https://www.figma.com/file/wT3sdUsGl5XI6l3T6eq9bs/CI-Project-1?node-id=35%3A111) is a very simple design
+
+### Font and Colour choices
+Explain choice of fonts and colour schemes here
+
 ## Features
 This site implements the very basic features of a static website.
 
