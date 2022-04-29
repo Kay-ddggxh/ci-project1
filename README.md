@@ -32,4 +32,18 @@ This site was deployed using GitHub pages using the following steps:
 
 The link to the live site is: https://kathrin-ddggxh.github.io/ci-project1/ 
 
+## Credits
+
+### Content
+- Google fonts
+- Font Awesome
+- Kevin Powell (burger menu, etc)
+- CSS tricks
+
+### Media
+All images and photographs were sourced from the following open source sites:
+- [Pexels](https://www.pexels.com/)
+- [Pixabay](https://pixabay.com/)
+- [Unsplash](https://unsplash.com/)
+
     
