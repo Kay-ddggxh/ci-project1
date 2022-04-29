@@ -20,6 +20,16 @@ This site implements the very basic features of a static website.
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
 
 ### Unfixed bugs
-Unfixes bugs will be discussed here.
+Unfixed bugs will be discussed here.
+
+## Deployment
+
+This site was deployed using GitHub pages using the following steps:
+- From the GitHub repository, navigate to **Settings**
+- In the left-hand navigation section select **Pages**
+- From the source section drop-down menu change Branch from **none** to **main** and click the **Save**
+- After several minutes the website is live and will be automatically refreshed with each Git push command.
+
+The link to the live site is: https://kathrin-ddggxh.github.io/ci-project1/ 
 
     
