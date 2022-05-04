@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nunito:wght@300;400;900&display=swap');
+/* 
+font-family: 'Irish Grover', cursive;
+font-family: 'Nunito', sans-serif; */
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
 }
