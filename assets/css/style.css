@@ -45,6 +45,12 @@ h1 {
     text-decoration: none;
 }
 
+.logo-icon {
+    color: #000;
+    font-size: 2rem;
+
+}
+
 .burger {
     background-color: aqua;
     border: none;
