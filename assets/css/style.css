@@ -7,8 +7,66 @@ font-family: 'Nunito', sans-serif; */
 *::before,
 *::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Irish Grover', cursive;
+}
+
+.container {
+    display: flex;
+
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    padding: 1em;
+    justify-content: space-between;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: none;
+}
+
+.logo,
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.burger {
+    background-color: aqua;
+    border: none;
+    border-radius: 3px;
+    width: 40px;
+    height: 35px;
+}
+
+.burger-bar {
+    width: 70%;
+    height: 3px;
+    background-color: #000;
+    border-radius: 3px;
+    margin: .5em auto;
+}
+
+.hero {
+    padding-top: 3em;
+    background-color: coral;
+}
+
+@media (min-width: 540px) {
+    .nav-list {
+        display: flex;
+    }
 }
