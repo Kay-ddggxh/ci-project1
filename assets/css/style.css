@@ -29,6 +29,7 @@ h1 {
     position: fixed;
     width: 100%;
     padding: 1em;
+    background-color: antiquewhite;
     justify-content: space-between;
 
 }
@@ -61,7 +62,7 @@ h1 {
 }
 
 .hero {
-    padding-top: 3em;
+    padding-top: 5em;
     background-color: coral;
 }
 
