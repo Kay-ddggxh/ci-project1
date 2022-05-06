@@ -82,7 +82,9 @@ main {
 }
 
 .hero-img {
-    background-image: linear-gradient(rgba(255, 255, 255, 3), rgba(0, 0, 0, .3)), url(../images/hero-img.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 3),
+            rgba(0, 0, 0, .3)),
+        url(../images/hero-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -94,6 +96,14 @@ main {
 .hero-text {
     width: 90%;
     margin: 0 auto;
+}
+
+.welcome-text {
+    font-size: 1.125rem;
+}
+
+.main-info {
+    margin: 2rem auto;
 }
 
 .gallery-item {
