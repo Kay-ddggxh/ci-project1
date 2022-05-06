@@ -28,9 +28,18 @@ main {
     margin: 0 auto;
 }
 
-.container {
+footer {
+    margin-top: 1rem;
+}
+
+.container,
+.row {
     display: flex;
 
+}
+
+.row {
+    justify-content: space-evenly;
 }
 
 .nav {
@@ -121,10 +130,27 @@ main {
 }
 
 .gallery-item {
-    background-color: rgb(213, 169, 255);
+    /* background-color: rgb(213, 169, 255); */
+    background-image: linear-gradient(rgb(85, 91, 255), rgb(31, 193, 27), rgb(255, 217, 19), rgb(255, 156, 85), rgb(255, 85, 85));
     width: 100%;
     height: 50px;
     margin: 2px;
+}
+
+.social-link {
+    margin: 1em 0;
+
+
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+    transition: ease-in-out;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: rgb(159, 36, 122);
 }
 
 @media (min-width: 540px) {
