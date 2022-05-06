@@ -109,6 +109,11 @@ main {
 
 .main-info-tile {
     margin-bottom: 2em;
+    padding: 1em;
+    /* box-shadow: 8px 4px 79px 24px rgba(46, 0, 225, 0.75); */
+    border: rgba(46, 0, 225, 0.3) solid 2px;
+    border-radius: 4px;
+
 }
 
 .main-info-heading {
@@ -127,3 +132,7 @@ main {
         display: flex;
     }
 }
+
+/* possible box-shadow for rule set:
+box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+credit: https://getcssscan.com/css-box-shadow-examples */
