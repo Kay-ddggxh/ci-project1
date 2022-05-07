@@ -22,6 +22,10 @@ h1 {
     margin-bottom: .3em;
 }
 
+a {
+    text-decoration: none;
+}
+
 main {
     width: 80%;
     max-width: 750px;
@@ -74,11 +78,15 @@ footer {
 }
 
 .burger {
-
+    background-color: transparent;
     border: none;
     border-radius: 3px;
     width: 40px;
     height: 35px;
+}
+
+.burger:hover {
+    cursor: pointer;
 }
 
 .burger-bar {
@@ -155,7 +163,7 @@ footer {
 
 .social-icon {
     font-size: 2rem;
-    color: rgb(159, 36, 122);
+    color: rgba(46, 0, 225, 0.7);
 }
 
 @media (min-width: 540px) {
