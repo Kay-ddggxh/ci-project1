@@ -168,6 +168,48 @@ footer {
     color: rgba(46, 0, 225, 0.7);
 }
 
+/* events page styling */
+
+th {
+    border-bottom: dotted 1px rgba(46, 0, 225, 0.7);
+    font-size: 1.1rem;
+    padding: 0 .2em .5em 0;
+}
+
+th+th,
+td+td {
+    border-left: dotted 1px rgba(46, 0, 225, 0.7);
+
+}
+
+td {
+    border-bottom: dotted 1px rgba(46, 0, 225, 0.7);
+}
+
+.events-table {
+    margin: 0 auto;
+}
+
+.table-caption {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin-bottom: .5em;
+}
+
+.table-heading {
+    padding-left: .4em;
+}
+
+.week-nr {
+    font-weight: 700;
+}
+
+.table-entry {
+    padding: .2em;
+    background-color: rgba(46, 0, 225, 0.2);
+    box-shadow: 0px 0px 8px rgba(46, 0, 225, .4);
+}
+
 @media (min-width: 540px) {
     .nav-list {
         display: flex;
