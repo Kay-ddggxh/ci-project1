@@ -129,10 +129,11 @@ footer {
     line-height: 1.5;
 }
 
-.main-info-tile {
+.main-info-tile,
+.weeklies,
+.specials {
     margin-bottom: 2em;
     padding: 1em;
-    /* box-shadow: 8px 4px 79px 24px rgba(46, 0, 225, 0.75); */
     border: rgba(46, 0, 225, 0.3) solid 2px;
     border-radius: 4px;
     text-align: justify;
@@ -170,8 +171,14 @@ footer {
 
 /* events page styling */
 
+/* events table */
+
+td,
 th {
     border-bottom: dotted 1px rgba(46, 0, 225, 0.7);
+}
+
+th {
     font-size: 1.1rem;
     padding: 0 .2em .5em 0;
 }
@@ -180,10 +187,6 @@ th+th,
 td+td {
     border-left: dotted 1px rgba(46, 0, 225, 0.7);
 
-}
-
-td {
-    border-bottom: dotted 1px rgba(46, 0, 225, 0.7);
 }
 
 .events-table {
@@ -209,6 +212,31 @@ td {
     background-color: rgba(46, 0, 225, 0.2);
     box-shadow: 0px 0px 8px rgba(46, 0, 225, .4);
 }
+
+/* events listings */
+
+.events-details {
+    margin: 2rem .2rem;
+}
+
+.weeklies,
+.specials {
+    margin-top: .5em;
+}
+
+.weekly+.weekly {
+    margin-top: 1.5em;
+}
+
+.specials-list {
+    list-style: none;
+}
+
+.specials-list-item {
+    margin-top: 1em;
+}
+
+/* media queries */
 
 @media (min-width: 540px) {
     .nav-list {
