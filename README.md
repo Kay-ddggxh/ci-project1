@@ -20,7 +20,9 @@ This site implements the very basic features of a static website.
     - Featured in the header of all four pages, includes the club's logo and links to Home page, About page, Events page and Contact form. Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
 ### Possible Future Features
-- Ideas for additional features down the line
+- Modal for events page:  
+
+    I would like to implement a modal for the calender events. So far, the details of the weekly events are simply listed and explained below the calender. In future it would be nice to have them pop up in a modal when either hovering or clicking on the events in the calender.
 
 ## Testing
 ### Validator Testing
