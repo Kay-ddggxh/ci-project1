@@ -33,7 +33,7 @@ main {
 }
 
 footer {
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 .container,
@@ -45,6 +45,8 @@ footer {
 .row {
     justify-content: space-evenly;
 }
+
+/* navbar styling */
 
 .nav {
     position: fixed;
@@ -73,8 +75,6 @@ footer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
-
 }
 
 .burger {
@@ -97,6 +97,8 @@ footer {
     margin: .5em auto;
 }
 
+/* hero image and header styling */
+
 .hero {
     padding: 5em 0 1em 0;
     font-weight: 900;
@@ -111,8 +113,6 @@ footer {
     background-position: center;
     background-size: cover;
     height: 30vh;
-
-
 }
 
 .hero-text {
@@ -123,6 +123,8 @@ footer {
 .welcome-text {
     font-size: 1.125rem;
 }
+
+/* main content styling */
 
 .main-info {
     margin: 2em auto;
@@ -153,10 +155,10 @@ footer {
     margin: 2px;
 }
 
+/* footer styling */
+
 .social-link {
     margin: 1em 0;
-
-
 }
 
 .social-link:hover {
@@ -176,6 +178,10 @@ footer {
 td,
 th {
     border-bottom: dotted 1px rgba(46, 0, 225, 0.7);
+}
+
+td {
+    width: 10px;
 }
 
 th {
@@ -234,6 +240,13 @@ td+td {
 
 .specials-list-item {
     margin-top: 1em;
+}
+
+.event-image {
+    width: 100%;
+    margin: 2em auto;
+    border-radius: 4px;
+
 }
 
 /* media queries */

@@ -24,11 +24,16 @@ This site implements the very basic features of a static website.
 
     I would like to implement a modal for the calender events. So far, the details of the weekly events are simply listed and explained below the calender. In future it would be nice to have them pop up in a modal when either hovering or clicking on the events in the calender.
 
+- Include loading="lazy" attribute for images
+
+    Once this attribute has full support from all commonly used browsers I aim to include it to all images on site in order to reduce data usage and improve rendering speed.
+
 ## Testing
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
+- Browser Support ([CanIUse](https://caniuse.com/))
 
 ### Unfixed bugs
 Unfixed bugs will be discussed here.
@@ -48,6 +53,9 @@ The link to the live site is: https://kathrin-ddggxh.github.io/ci-project1/
 Photographs with specific Irish LGBTQ content were taken from:
 - https://www.galwaytourism.ie/event/galway-pride-festival/
 - https://www.nxf.ie/
+- https://northwestadventuretours.ie/ (Instagram feed)
+- https://insighttreatment.com/
+- http://thrivetherapyandcounseling.com/
 
 ### Content
 - Google fonts
