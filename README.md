@@ -45,6 +45,10 @@ The link to the live site is: https://kathrin-ddggxh.github.io/ci-project1/
 
 ## Credits
 
+Photographs with specific Irish LGBTQ content were taken from:
+- https://www.galwaytourism.ie/event/galway-pride-festival/
+- https://www.nxf.ie/
+
 ### Content
 - Google fonts
 - Font Awesome
