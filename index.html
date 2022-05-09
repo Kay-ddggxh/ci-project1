@@ -22,7 +22,13 @@
                 <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-            <button aria-label="menu" class="burger">
+            <ul class="nav-list container" id="burger-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button aria-label="menu" class="burger" id="burger" onclick="openBurgerMenu()">
                 <div class="burger-bar"></div>
                 <div class="burger-bar"></div>
                 <div class="burger-bar"></div>
@@ -38,7 +44,7 @@
         </section>
     </header>
     <main>
-        <p class="welcome-text">Welcome to the Lowland Pride youth group! We are a community of young LGBTQ+ people
+        <p class="intro-text">Welcome to the Lowland Pride youth group! We are a community of young LGBTQ+ people
             who all live in and around the Burren Lowland Region. <br> Have a look at what we get up to!</p>
         <div class="main-info">
             <div class="main-info-tile">
@@ -79,6 +85,9 @@
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link"><i
                 class="fa-brands fa-instagram social-icon"></i></a>
     </footer>
+    <script src="index.js"></script>
+    <noscript>Your browser does not support JavaScript or had JavaScript disabled. Enable JavaScript to make use of the
+        full site.</noscript>
 </body>
 
 </html>

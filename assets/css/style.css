@@ -62,10 +62,16 @@ footer {
     display: none;
 }
 
+.nav-item {
+    padding: .3em;
+
+}
+
 .logo,
 .nav-link {
     color: #000;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .logo-icon {
@@ -97,6 +103,10 @@ footer {
     margin: .5em auto;
 }
 
+#burger-menu {
+    font-size: 1.25em;
+}
+
 /* hero image and header styling */
 
 .hero {
@@ -120,7 +130,7 @@ footer {
     margin: 0 auto;
 }
 
-.welcome-text {
+.intro-text {
     font-size: 1.125rem;
 }
 
@@ -173,10 +183,14 @@ footer {
 
 /* rule section styling */
 
+.rules-heading {
+    margin-bottom: .5em;
+}
+
 .rules-list {
     text-align: justify;
     width: 90%;
-    margin: 0 auto;
+    margin: 2em auto;
     line-height: 1.5;
 
 }
