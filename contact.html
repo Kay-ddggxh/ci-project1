@@ -44,7 +44,27 @@
         </section>
     </header>
     <main>
-
+        <form action="https://formdump.codeinstitute.net/" method="post" class="contact-form">
+            <h2 class="form-heading">Let's get in touch!</h2>
+            <label for="full-name">Full Name</label>
+            <input id="full-name" name="full_name" type="text" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" class="text-input" required>
+            <label for="age">Your Age</label>
+            <input id="age" name="age" type="number" min="14" max="25" class="text-input" required>
+            <label for="area">Your Area</label>
+            <input id="area" name="area" type="text" class="text-input">
+            <p>Would you like to know about lifts going from your area? (You will need to fill in the "Your Area" field
+                for this.</p>
+            <input type="radio" id="lift-share-yes" name="lift_share">
+            <label for="lift-share-yes">Yes, please</label>
+            <input type="radio" id="lift-share-no" name="lift_share">
+            <label for="lift-share-no">No, thanks</label>
+            <label for="message">Send us a message</label>
+            <textarea name="message" id="message" col="50"
+                row="50">Is there anything else you would like to tell us? Let us know!</textarea>
+            <input type="submit" value="Submit" aria-label="submit-button" class="submit-btn">
+        </form>
     </main>
     <footer class="row">
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-link"><i
