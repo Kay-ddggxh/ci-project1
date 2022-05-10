@@ -44,7 +44,7 @@
         </section>
     </header>
     <main>
-        <form action="https://formdump.codeinstitute.net/" method="post" class="contact-form container">
+        <form action="#" method="post" class="contact-form container">
             <h2 class="form-heading">Let's get in touch!</h2>
             <label for="full-name" class="text-input-label" title="required field">Full Name <span
                     class="required">*</span></label>
@@ -57,15 +57,18 @@
             <input id="age" name="age" type="number" min="14" max="25" class="text-input" required>
             <label for="area" class="text-input-label">Your Area</label>
             <input id="area" name="area" type="text" class="text-input">
-            <p class="form-paragraph">Would you like to know about lifts going from your area?</p>
-            <div class="radio-input">
-                <input type="radio" id="lift-share-yes" name="lift_share">
-                <label for="lift-share-yes">Yes, please</label>
-            </div>
-            <div class="radio-input">
-                <input type="radio" id="lift-share-no" name="lift_share">
-                <label for="lift-share-no">No, thanks</label>
-            </div>
+            <fieldset>
+                <legend>Lift Share</legend>
+                <p class="form-paragraph">Would you like to know about lifts going from your area?</p>
+                <div class="radio-input">
+                    <input type="radio" id="lift-share-yes" name="lift_share" class="radio-btn">
+                    <label for="lift-share-yes">Yes, please</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" id="lift-share-no" name="lift_share" class="radio-btn">
+                    <label for="lift-share-no">No, thanks</label>
+                </div>
+            </fieldset>
             <label for="message" class="text-input-label">Send us a message</label>
             <textarea name="message" id="message" col="50" row="50" class="text-input message-input"
                 placeholder="Is there anything else you would like to tell us? Let us know!"></textarea>

@@ -132,7 +132,6 @@ footer {
 .hero-text {
     width: 90%;
     margin: 0 auto;
-
 }
 
 .intro-text {
@@ -302,12 +301,14 @@ td+td {
 }
 
 .text-input,
-.submit-btn {
+.submit-btn,
+fieldset {
     border-radius: 4px;
     font-family: inherit;
 }
 
-.text-input {
+.text-input,
+fieldset {
     padding: .3em;
     border: rgba(46, 0, 225, 0.3) solid 2px;
     margin-bottom: .8em;
