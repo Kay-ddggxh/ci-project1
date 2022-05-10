@@ -28,6 +28,10 @@ This site implements the very basic features of a static website.
 
     Once this attribute has full support from all commonly used browsers I aim to include it to all images on site in order to reduce data usage and improve rendering speed.
 
+- Create carousel for homepage gallery
+
+    At the moment the homepage gallery is static. I would like to implement a carousel in the future that would also allow for more images in the gallery.
+
 ## Testing
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
