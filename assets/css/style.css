@@ -228,10 +228,6 @@ th {
     border-bottom: dotted 1px rgba(46, 0, 225, 0.7);
 }
 
-td {
-    width: 10px;
-}
-
 th {
     font-size: 1.1rem;
     padding: 0 .2em .5em 0;
@@ -249,8 +245,9 @@ td+td {
 
 .table-caption {
     font-size: 1.3rem;
-    text-decoration: underline;
-    margin-bottom: .5em;
+    border-bottom: solid 2px rgba(46, 0, 225, 0.2);
+    width: fit-content;
+    margin: .5em auto 1.5rem auto;
 }
 
 .table-heading {
@@ -262,7 +259,7 @@ td+td {
 }
 
 .table-entry {
-    padding: .2em;
+    padding: .2em .5em;
     background-color: rgba(46, 0, 225, 0.2);
     box-shadow: 0px 0px 8px rgba(46, 0, 225, .4);
 }
@@ -359,6 +356,8 @@ fieldset {
 
 /* media queries */
 
+/* medium size screen */
+
 @media (min-width: 540px) {
 
     /* navbar styling */
@@ -384,6 +383,19 @@ fieldset {
         border-bottom: rgba(46, 0, 225, 0.3) solid 2px;
     }
 
+}
+
+/* large size screen */
+
+@media (min-width: 760px) {
+    :root {
+        font-size: 18px;
+    }
+
+    .table-entry {
+        font-size: 1.1rem;
+        padding: .4em .6em;
+    }
 }
 
 /* possible box-shadow for rule set:
