@@ -33,7 +33,7 @@ a {
 main {
     width: 80%;
     max-width: 750px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 footer {
@@ -68,7 +68,6 @@ footer {
 
 .nav-item {
     padding: .3em;
-
 }
 
 .logo,
@@ -78,6 +77,10 @@ footer {
     font-weight: 600;
 }
 
+.nav-link:hover {
+    text-shadow: 0px 0px 8px rgba(46, 0, 225, .4);
+}
+
 .logo-icon {
     background-image: url(../images/pride-flag.jpg);
     background-size: cover;
@@ -85,6 +88,7 @@ footer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-left: 1rem;
 }
 
 .burger {
@@ -330,7 +334,7 @@ fieldset {
 }
 
 .radio-input {
-    margin-bottom: .5em;
+    margin: 0 0 .5em .8em;
 }
 
 .message-input {
@@ -356,9 +360,30 @@ fieldset {
 /* media queries */
 
 @media (min-width: 540px) {
+
+    /* navbar styling */
+
+    .burger {
+        display: none;
+    }
+
+    #burger-menu {
+        display: none;
+    }
+
     .nav-list {
         display: flex;
+        align-items: center;
     }
+
+    .nav-item {
+        padding-right: 1.5em;
+    }
+
+    .active {
+        border-bottom: rgba(46, 0, 225, 0.3) solid 2px;
+    }
+
 }
 
 /* possible box-shadow for rule set:
