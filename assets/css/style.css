@@ -424,6 +424,16 @@ fieldset {
         width: 32%;
     }
 
+    /* style event page */
+
+    .weeklies,
+    .specials {
+        text-align: center;
+    }
+
+    .event-image {
+        width: 70%;
+    }
 }
 
 /* possible box-shadow for rule set:
