@@ -91,6 +91,11 @@ footer {
     margin-left: 1rem;
 }
 
+.logo-icon:hover {
+    transform: scale(1.1);
+    transition: ease-in-out;
+}
+
 .burger {
     background-color: transparent;
     border: none;
