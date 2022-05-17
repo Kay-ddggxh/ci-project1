@@ -11,29 +11,35 @@
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Navigation -->
         <nav class="nav container">
             <a href="index.html" class="logo">
                 <div class="logo-icon"></div>
             </a>
+            <!-- Navbar list for larger screens -->
             <ul class="nav-list container">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
                 <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
+            <!-- Navbar list for mobile screens. Burger dropdown menu -->
             <ul class="nav-list container" id="burger-menu">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
+            <!-- Burger icon -->
             <button aria-label="menu" class="burger" id="burger" onclick="openBurgerMenu()">
                 <div class="burger-bar"></div>
                 <div class="burger-bar"></div>
                 <div class="burger-bar"></div>
             </button>
         </nav>
+        <!-- Hero with banner image and text -->
         <section class="hero">
             <div class="hero-img">
                 <div class="hero-text">
@@ -43,10 +49,12 @@
             </div>
         </section>
     </header>
+    <!-- Main content -->
     <main>
         <p class="intro-text">Here's a little overview of what Lowland Pride is all about. No doubt there's many more
             questions you might have and we'd be happy to answer any of them. Send us a message over on <a
                 href="contact.html">contact</a>.</p>
+        <!-- Main about info section -->
         <section class="main-info">
             <div class="main-info-tile">
                 <h2 class="main-info-heading">Who</h2>
@@ -77,6 +85,7 @@
                         sharing</strong> to Gort.</p>
             </div>
         </section>
+        <!-- Club rule section -->
         <aside class="rules" aria-label="rules" id="rules">
             <h2 class="rules-heading">Club Rules</h2>
             <p class="intro-text">To ensure that everybody feels welcome at Lowland Pride, we all adhere to the
@@ -101,6 +110,7 @@
         </aside>
 
     </main>
+    <!-- Footer with social media links -->
     <footer class="row">
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-link"><i
                 class="fa-brands fa-facebook social-icon"></i></a>

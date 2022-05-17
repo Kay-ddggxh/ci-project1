@@ -11,29 +11,35 @@
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Navigation -->
         <nav class="nav container">
             <a href="index.html" class="logo">
                 <div class="logo-icon"></div>
             </a>
+            <!-- Navbar list for larger screens -->
             <ul class="nav-list container">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="events.html" class="nav-link active">Events</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
+            <!-- Navbar list for mobile screens. Burger dropdown menu -->
             <ul class="nav-list container" id="burger-menu">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
+            <!-- Burger icon -->
             <button aria-label="menu" class="burger" id="burger" onclick="openBurgerMenu()">
                 <div class="burger-bar"></div>
                 <div class="burger-bar"></div>
                 <div class="burger-bar"></div>
             </button>
         </nav>
+        <!-- Hero with banner image and text -->
         <section class="hero">
             <div class="hero-img">
                 <div class="hero-text">
@@ -43,8 +49,10 @@
             </div>
         </section>
     </header>
+    <!-- Main content -->
     <main>
         <p class="intro-text">We like to get together to support each other. Here's what we're getting up to.</p>
+        <!-- Table of regular meet-ups -->
         <table aria-label="event-table" class="events-table">
             <caption class="table-caption">Regular meet-ups</caption>
             <tr>
@@ -73,6 +81,7 @@
                 <td class="table-entry">Saturday Social <br><strong>14:00</strong></td>
             </tr>
         </table>
+        <!-- Event and meeting details -->
         <section class="events-details">
             <h2 class="weeklies-heading">Our Weeklies</h2>
             <div class="weeklies">
@@ -136,6 +145,7 @@
             </div>
         </section>
     </main>
+    <!-- Footer with social media links -->
     <footer class="row">
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-link"><i
                 class="fa-brands fa-facebook social-icon"></i></a>
