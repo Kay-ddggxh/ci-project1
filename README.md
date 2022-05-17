@@ -39,9 +39,10 @@ This site implements the very basic features of a static website.
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
 - Browser Support ([CanIUse](https://caniuse.com/))
 
-### Bugs
+### Fixed Bugs
 #### 405 Error on form submit
-Initially, when clicking the submit button on the contact form, the button would link to submit.html, displaying a "form submit successful" message and a "Back Home" button. On the deployed site this would bring up a 405 error (Not allowed)
+Initially, when clicking the submit button on the contact form, the button would link to submit.html, displaying a "form submit successful" message and a "Back Home" button. On the deployed site this would bring up a 405 error (Not allowed).
+As submit.html was not a valid action for form POST method, I had to use the Code Institute form dump provided to students.
 
 
 
