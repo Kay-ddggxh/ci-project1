@@ -68,6 +68,13 @@ Photographs with specific Irish LGBTQ content were taken from:
 - https://insighttreatment.com/
 - http://thrivetherapyandcounseling.com/
 
+### Code
+
+Heart-Icon: 
+- https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html
+- https://unused-css.com/blog/css-half-circle/
+
+
 ### Content
 - Google fonts
 - Font Awesome

@@ -391,6 +391,49 @@ fieldset {
     font-size: 1.2rem;
 }
 
+/* Heart icon style for 404 page */
+
+.heart-icon {
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    background: linear-gradient(90deg,
+            #FE0000 12.5px,
+            #FD8C00 12.5px, 25px,
+            #FFE500 25px, 37.5px,
+            #119F0B 37.5px);
+}
+
+.heart-icon::after {
+    background: linear-gradient(180deg,
+            #0644B3 12.5px,
+            #C22EDC 12.5px);
+    content: "";
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    transform: rotate(90deg);
+    top: 13px;
+    left: 37px;
+}
+
+.heart-icon::before {
+    background: linear-gradient(360deg,
+            #e0e0e0 20%,
+            #F5A9B8 20%, 40%,
+            #5BCEFA 40%, 60%,
+            #784F17 60%, 80%,
+            #181818 80%);
+    content: "";
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: -25px;
+    left: 0px;
+}
 
 /* media queries */
 
