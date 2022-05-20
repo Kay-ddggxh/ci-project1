@@ -39,6 +39,7 @@ This site implements the very basic features of a static website.
     referring to 3 ```<div class="burger-bar"></div>``` elements that make up the burger menu button
     - Solution: Changed ```div``` elements to ```span``` with ```display: block;```   
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
+    - No error found
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
 - Browser Support ([CanIUse](https://caniuse.com/))
 
