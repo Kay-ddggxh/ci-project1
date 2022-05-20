@@ -43,8 +43,10 @@ This site implements the very basic features of a static website.
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
     - No error found
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
+    - added ```title``` and ```aria-label``` attributes to all social links and home link logo to improve accessibility
 - Browser Support ([CanIUse](https://caniuse.com/))
     - ```gap``` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
+    - ```loading="lazy"``` attribute on images: not yet fully supported by most browsers; to be included in the future
 
 ### Browser Testing
 
