@@ -110,6 +110,7 @@ footer {
 }
 
 .burger-bar {
+    display: block;
     width: 70%;
     height: 3px;
     background-color: #000;
