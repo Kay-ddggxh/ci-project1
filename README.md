@@ -58,6 +58,7 @@ This site implements the very basic features of a static website.
 | Edge        | ✔          | ✔             |
 | Firefox     | ✔          | ✔             |
 | Safari      | ✔          | ✔             |
+| IE          |deprecated by Microsoft, not tested|
 
 
 ### User Stories
