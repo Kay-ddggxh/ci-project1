@@ -35,6 +35,9 @@ This site implements the very basic features of a static website.
 ## Testing
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
+    - 1 Error: "Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)"; 
+    referring to 3 ```<div class="burger-bar"></div>``` elements that make up the burger menu button
+    - Solution: Changed ```div``` elements to ```span``` with ```display: block;```   
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
 - Browser Support ([CanIUse](https://caniuse.com/))
