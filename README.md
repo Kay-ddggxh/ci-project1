@@ -3,6 +3,8 @@ Welcome to Lowland Pride! This is the website of the Burren Lowland's first LGBT
 The site is targeted towards members of the LGBTQ+ community aged 14-25 who live in the rural areas of the at the base of the Burren, centering on Gort, Co. Galway and reaching into West Clare.
 The Lowland Pride's site provides young people with a schedule of weekly meet-ups, dates and information on special events and how to join the group.
 
+Visit live site [here](https://kathrin-ddggxh.github.io/ci-project1/).
+
 ## Design
 This site was created and designed with young adults and teenagers in mind who are looking for information and access to a very specific group in their own locality. The content is short and informative, the style colourful and reassuring.
 
@@ -42,6 +44,24 @@ This site implements the very basic features of a static website.
     - No error found
 - Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
 - Browser Support ([CanIUse](https://caniuse.com/))
+    - ```gap``` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
+
+### Browser Testing
+
+**Layout:** Testing layout and appearance of site for consistency throughout browsers.
+
+**Functionality:** Ensuring all links, navigation and form submit functions as expected throughout browsers.
+
+| Browser     | Layout      | Functionality |
+| :---        |    :----:   |          ---: |
+| Chrome      | ✔          | ✔             |
+| Edge        | ✔          | ✔             |
+| Firefox     | ✔          | ✔             |
+| Safari      | ✔          | ✔             |
+
+
+### User Stories
+do table with "expected result", "actual result" -> test all the links and buttons
 
 ### Fixed Bugs
 #### 405 Error on form submit
@@ -51,7 +71,7 @@ As submit.html was not a valid action for form POST method, I had to use the Cod
 
 
 ### Unfixed bugs
-Unfixed bugs will be discussed here.
+No unfixed bugs to date.
 
 ## Deployment
 
