@@ -101,6 +101,32 @@ This site implements the very basic features of a static website.
 
     In the event of the club ever getting established, a section will be added to pin the clubs location on a map iframe, as well as the postal address.
 
+## UX
+***
+### Site goals
+The goal of this site is to provide LGBTQ+ teens and young adults of the wider Gort (Ireland) region with an easy to navigate club website. The site aims to present the necessary information in a simple, straight forward manner (including club rules, event schedule and details), as well as provide a way of contacting the club for potential new members.
+
+### User Stories
+
+**As a site visitor:**
+
+- I want to quickly find out the clubs main activities and aims.
+- I want to be able to see where the club operates.
+- I want to know if I am a suitable canditate to be a club member.
+- I want to learn about the club rules.
+- I want to find out when the club members meet.
+- I want to know what happens during meetings and events.
+- I want to learn about all type of events the club holds or takes part in.
+- I want to be able to get in contact with the club and make inquiries.
+- I want to be able to easily navigate between pages on all devices.
+- I want to see a mobile friendly layout and responsive design.
+
+**As the site administrator:**
+
+- I want to be able to update the events calender.
+- I want to be able to update and add new events on the events listing.
+- I want to be able to add more relevant images to the site and create a more extensive gallery.
+
 ## Testing
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
@@ -109,7 +135,7 @@ This site implements the very basic features of a static website.
     - Solution: Changed ```div``` elements to ```span``` with ```display: block;```   
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
     - No error found
-- Accessibility ([WebAIM](https://webaim.org/resources/contrastchecker/), [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
+- Accessibility ([axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
     - added ```title``` and ```aria-label``` attributes to all social links and home link logo to improve accessibility
 - Browser Support ([CanIUse](https://caniuse.com/))
     - ```gap``` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
