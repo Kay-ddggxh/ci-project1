@@ -8,13 +8,15 @@ The Lowland Pride's site provides young people with a schedule of weekly meet-up
 Visit live site [here](https://kathrin-ddggxh.github.io/ci-project1/).
 
 ## Design
-This site was created and designed with young adults and teenagers in mind who are looking for information and access to a very specific group in their own locality. The content is short and informative, the style colourful and reassuring.
+This site was created and designed with young adults and teenagers in mind who are looking for information and access to a very specific group in their own locality. It was built with a mobile-first approach, keeping in mind that most of the target audience would access the site via phone or other mobile device. The content is short and informative, the style colourful and reassuring.
 
 ### Wireframes
-- The first wireframe in [Figma](https://www.figma.com/file/wT3sdUsGl5XI6l3T6eq9bs/CI-Project-1?node-id=35%3A111) is a very simple design
+- The first wireframe in [Figma](https://www.figma.com/file/wT3sdUsGl5XI6l3T6eq9bs/CI-Project-1?node-id=35%3A111) is a very simple design. It also shows an alternative option for the homepage layout which could be implemented in the future.
 
 ### Font and Colour choices
-Explain choice of fonts and colour schemes here
+**Fonts:** "Irish Grover" was chosen for its Irish theme, given that the site targets a specific rural Irish community. "Nunito", with its rounded edges brings along a soft, gentle yet playful appearance, ideal for young users belonging to a minority group.
+
+**Colours:** A light purple is the main colour of the site, referring to the often represented colour of a lot of pride flags. The general rainbow theme of the pride movement is reflected in the logo and throughout the images on the site.
 
 ## Features
 This site implements the very basic features of a static website.
