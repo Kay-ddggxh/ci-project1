@@ -23,7 +23,14 @@ This site implements the very basic features of a static website.
 
 ### Existing Features
 - **Navigation Bar**
-    - Featured in the header of all four pages, includes the club's logo and links to Home page, About page, Events page and Contact form. Uniform format allows for easy navigation on all pages without the use of the "back" button.
+    - Featured in the header of all four pages. Includes the club's logo and links to Home page, About page, Events page and Contact form. 
+    - Uniform format allows for easy navigation on all pages without the use of the "back" button.
+
+    ![navbar](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/navbar.PNG)
+
+- **Hero image and Banner text**
+    - The hero background image and text design is consistent throughout the site, while text content varies to match the page content.
+    - The hero image had some opacity added in order to increase the contrast between the header text and the image.
 
 ### Possible Future Features
 - Modal for events page:  
