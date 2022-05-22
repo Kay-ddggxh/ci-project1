@@ -148,16 +148,28 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
 **Functionality:** Ensuring all links, navigation and form submit functions as expected throughout browsers.
 
 | Browser     | Layout      | Functionality |
-| :---        |    :----:   |          ---: |
+| :---------: | :----------:| :-----------: |
 | Chrome      | ✔          | ✔             |
 | Edge        | ✔          | ✔             |
 | Firefox     | ✔          | ✔             |
 | Safari      | ✔          | ✔             |
 | IE          |deprecated by Microsoft, not tested|
 
+### Manual Testing
 
-### User Stories
-do table with "expected result", "actual result" -> test all the links and buttons
+| Feature     | Expect      | Action        | Result |
+| :---------: | :----------:| :-----------: | :-----:|
+| Logo Icon   | When clicked, home page will open   | Clicked Logo Icon  | Home page opened when clicked |
+| Navbar Buttons  | When clicked, the respective page will open  | Clicked all individual navbar buttons | All respective pages opened when button was clicked |
+| Rule link on home page main | When clicked, About page will open and scroll to rule section  | Click rule link | About page opens and scrolls to rule section |
+| Contact link on About page main | When clicked,the Contact page will open | Click contact link | Contact page opens |
+| Social link icons | Social link icons open relevant websites in new tab when clicked| Click all individual icons | All respective sites open in new tab |
+| Form submit button | Form submits when submit button is clicked | Fill out form and click submit button | CI form dump page opens and displays form contents |
+| Required form fields | form will not submitif required fields are blank and fields will be highlighted and flagged | Fill out form incorrectly | Form does not submit and highlights incorrectly filled in fields |
+
+### Testing User Stories
+
+lkhkh;oih
 
 ### Fixed Bugs
 #### 405 Error on form submit
