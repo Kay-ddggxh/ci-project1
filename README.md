@@ -97,6 +97,10 @@ This site implements the very basic features of a static website.
 
     At the moment the homepage gallery is static. I would like to implement a carousel in the future that would also allow for more images in the gallery.
 
+- Include address and map iframe
+
+    In the event of the club ever getting established, a section will be added to pin the clubs location on a map iframe, as well as the postal address.
+
 ## Testing
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
