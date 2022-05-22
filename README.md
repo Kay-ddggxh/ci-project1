@@ -26,11 +26,63 @@ This site implements the very basic features of a static website.
     - Featured in the header of all four pages. Includes the club's logo and links to Home page, About page, Events page and Contact form. 
     - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
-    ![navbar](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/navbar.PNG)
+    ![navbar](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/navbar.PNG?raw=true)
 
 - **Hero image and Banner text**
     - The hero background image and text design is consistent throughout the site, while text content varies to match the page content.
     - The hero image had some opacity added in order to increase the contrast between the header text and the image.
+
+    ![hero section](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/hero.PNG?raw=true)
+
+- **Main Content**
+    - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
+    - Subtle borders of the site's primary colour surround each section to give a clear division of information.
+
+    ![main content](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/main-home.PNG?raw=true)
+
+- **Home Gallery** 
+    - A simple gallery of images at the bottom of the hompage adds a visual insight into the club the site is portraying.
+    - Images are supposed to show important or fun moments for club members.
+
+    ![home gallery](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/gallery-home.PNG?raw=true)
+
+- **Footer**
+    - The footer element contains 3 icons, linking to the main social media platforms.
+    - The icons are styled in the sites primary colour.
+    - The footer is consistent througout all pages.
+
+    ![footer](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/footer.PNG?raw=true)
+
+- **Rules section**
+    - The club rules section can be found on the About page of the site.
+    - A very important element, it lists the rules all members of the club must adhere to.
+
+    ![rules](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/rules.PNG?raw=true)
+
+- **Events calender**
+    - The table listing the regularly occuring club meetings is displayed on the Events page.
+    - Days that host the event are highlighted with the site's primary colour.
+
+    ![events calender](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/events-calender.PNG?raw=true)
+
+- **Events details**
+    - The events details section is located below the events calender.
+    - The section explains what activities take place during each event, both regular and special events.
+    - An image below every event description offers a visual example of each.
+
+    ![events details](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/events-details.PNG?raw=true)
+
+- **Contact form**
+    - On the last page of the site users can find a contact form to fill in and submit to get in touch with the club.
+    - Name and email are mandotory fields, location and message are optional.
+    - Currently, submitting the form will take the user to the form dump page provided by Code Institute.
+
+    ![form](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/form.PNG?raw=true)
+
+- **404 Error page**
+    - In the event of a 404 "page not found" error, the user will be directed to a customized error page which is keeping with the style of the site and also has a little reassuring message.
+
+    ![404 page](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/404.PNG?raw=true)
 
 ### Possible Future Features
 - Modal for events page:  
