@@ -116,7 +116,6 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
 - I want to learn about the club rules.
 - I want to find out when the club members meet.
 - I want to know what happens during meetings and events.
-- I want to learn about all type of events the club holds or takes part in.
 - I want to be able to get in contact with the club and make inquiries.
 - I want to be able to easily navigate between pages on all devices.
 - I want to see a mobile friendly layout and responsive design.
@@ -159,17 +158,29 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
 
 | Feature     | Expect      | Action        | Result |
 | :---------: | :----------:| :-----------: | :-----:|
-| Logo Icon   | When clicked, home page will open   | Clicked Logo Icon  | Home page opened when clicked |
-| Navbar Buttons  | When clicked, the respective page will open  | Clicked all individual navbar buttons | All respective pages opened when button was clicked |
-| Rule link on home page main | When clicked, About page will open and scroll to rule section  | Click rule link | About page opens and scrolls to rule section |
-| Contact link on About page main | When clicked,the Contact page will open | Click contact link | Contact page opens |
-| Social link icons | Social link icons open relevant websites in new tab when clicked| Click all individual icons | All respective sites open in new tab |
-| Form submit button | Form submits when submit button is clicked | Fill out form and click submit button | CI form dump page opens and displays form contents |
-| Required form fields | form will not submitif required fields are blank and fields will be highlighted and flagged | Fill out form incorrectly | Form does not submit and highlights incorrectly filled in fields |
+| **Logo Icon**   | When clicked, home page will open   | Clicked Logo Icon  | Home page opened when clicked |
+| **Navbar Buttons**  | When clicked, the respective page will open  | Clicked all individual navbar buttons | All respective pages opened when button was clicked |
+| **Rule link on home page main** | When clicked, About page will open and scroll to rule section  | Click rule link | About page opens and scrolls to rule section |
+| **Contact link on About page main** | When clicked,the Contact page will open | Click contact link | Contact page opens |
+| **Social link icons** | Social link icons open relevant websites in new tab when clicked| Click all individual icons | All respective sites open in new tab |
+| **Form submit button** | Form submits when submit button is clicked | Fill out form and click submit button | CI form dump page opens and displays form contents |
+| **Required form fields** | form will not submitif required fields are blank and fields will be highlighted and flagged | Fill out form incorrectly | Form does not submit and highlights incorrectly filled in fields |
 
 ### Testing User Stories
 
-lkhkh;oih
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+| I want to quickly find out the clubs main activities and aims | As a visitor, I can quickly read through the main content of the home and about page and find out what the club does |
+| I want to be able to see where the club operates | As a visitor, I can find the "Where" section easily on the about page which tells me where the club operates |
+| I want to know if I am a suitable canditate to be a club member | As a visitor, I can find the "Who" section easily on the about page which tells me who can join the club |
+| I want to learn about the club rules | As a visitor, I find the rules section on the about page, which is also linked on the home page |
+| I want to find out when the club members meet | As a visitor, I can see a clearly structured schedule of regular meetings on the events page |
+| I want to know what happens during meetings and events | As a visitor, I can find the event details on the events page |
+| I want to be able to get in contact with the club and make inquiries | As a visitor, I can easily navigate to the contact page and fill in the contact form |
+| I want to be able to easily navigate between pages on all devices | As a visitor, I can use the static navbar on large screens or burger menu on small and medium screens to navigate between pages |
+| I want to see a mobile friendly layout and responsive design | As a visitor, I have a good view of the site on mobile device without overflow or side-scrolling |
+
+
 
 ### Fixed Bugs
 #### 405 Error on form submit
