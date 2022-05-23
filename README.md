@@ -204,6 +204,8 @@ The link to the live site is: https://kathrin-ddggxh.github.io/ci-project1/
 
 ## Credits
 
+### Media
+
 Photographs with specific Irish LGBTQ content were taken from:
 - https://www.galwaytourism.ie/event/galway-pride-festival/
 - https://www.nxf.ie/
@@ -211,23 +213,25 @@ Photographs with specific Irish LGBTQ content were taken from:
 - https://insighttreatment.com/
 - http://thrivetherapyandcounseling.com/
 
-### Code
-
-Heart-Icon: 
-- https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html
-- https://unused-css.com/blog/css-half-circle/
-
-
-### Content
-- Google fonts
-- Font Awesome
-- Kevin Powell (burger menu, etc)
-- CSS tricks
-
-### Media
-All images and photographs were sourced from the following open source sites:
+All stock images were sourced from the following open source sites:
 - [Pexels](https://www.pexels.com/)
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
+
+### Code
+
+Heart Icon: 
+- https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html
+- https://unused-css.com/blog/css-half-circle/
+
+Burger Menu:
+- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+
+### Content
+- Fonts were taken from [Google fonts](https://fonts.google.com/)
+- Social media icon were taken from [Font Awesome](https://fontawesome.com/icons)
+
+
 
     
