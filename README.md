@@ -136,6 +136,8 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
     - No error found
 - Accessibility ([axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
     - added ```title``` and ```aria-label``` attributes to all social links and home link logo to improve accessibility
+- Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
+    - ![Lighthouse rating](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/lighthouse-rating.PNG?raw=true)
 - Browser Support ([CanIUse](https://caniuse.com/))
     - ```gap``` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
     - ```loading="lazy"``` attribute on images: not yet fully supported by most browsers; to be included in the future
