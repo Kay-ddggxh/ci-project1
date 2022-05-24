@@ -230,7 +230,7 @@ Burger Menu:
 
 ### Content
 - Fonts were taken from [Google fonts](https://fonts.google.com/)
-- Social media icon were taken from [Font Awesome](https://fontawesome.com/icons)
+- Social media icons were taken from [Font Awesome](https://fontawesome.com/icons)
 
 
 
