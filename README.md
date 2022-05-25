@@ -8,6 +8,7 @@ The Lowland Pride's site provides young people with a schedule of weekly meet-up
 Visit live site [here](https://kathrin-ddggxh.github.io/ci-project1/).
 
 ## Design
+***
 This site was created and designed with young adults and teenagers in mind who are looking for information and access to a very specific group in their own locality. It was built with a mobile-first approach, keeping in mind that most of the target audience would access the site via phone or other mobile device. The content is short and informative, the style colourful and reassuring.
 
 ### Wireframes
@@ -19,6 +20,7 @@ This site was created and designed with young adults and teenagers in mind who a
 **Colours:** A light purple is the main colour of the site, referring to the often represented colour of a lot of pride flags. The general rainbow theme of the pride movement is reflected in the logo and throughout the images on the site.
 
 ## Features
+***
 This site implements the very basic features of a static website.
 
 ### Existing Features
@@ -127,6 +129,7 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
 - I want to be able to add more relevant images to the site and create a more extensive gallery.
 
 ## Testing
+***
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
     - 1 Error: "Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)"; 
@@ -195,8 +198,8 @@ As submit.html was not a valid action for form POST method, I had to use the Cod
 No unfixed bugs to date.
 
 ## Deployment
-
-This site was deployed using GitHub pages using the following steps:
+***
+This site was deployed via GitHub pages using the following steps:
 - From the GitHub repository, navigate to **Settings**
 - In the left-hand navigation section select **Pages**
 - From the source section drop-down menu change Branch from **none** to **main** and click the **Save**
@@ -204,8 +207,15 @@ This site was deployed using GitHub pages using the following steps:
 
 The link to the live site is: https://kathrin-ddggxh.github.io/ci-project1/ 
 
-## Credits
+To run locally:
+- Log into GitHub and click on repository to download ([ci-project1](https://github.com/Kathrin-ddggxh/ci-project1))
+- Select **Code** and click "Download the Zip file.
+- Once download is completed, extract ZIP file and use in your local environment.
 
+Alternatively you can **Clone** or **Fork** this repository into your GitHub account.
+
+## Credits
+***
 ### Media
 
 Photographs with specific Irish LGBTQ content were taken from:
