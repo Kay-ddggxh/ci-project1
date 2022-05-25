@@ -164,6 +164,7 @@ footer {
     border: rgba(46, 0, 225, 0.3) solid 2px;
     border-radius: 4px;
     text-align: justify;
+    background-color: rgb(240, 240, 240);
 }
 
 .main-info-heading {
