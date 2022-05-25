@@ -8,7 +8,7 @@ The Lowland Pride's site provides young people with a schedule of weekly meet-up
 Visit live site [here](https://kathrin-ddggxh.github.io/ci-project1/).
 
 ## Design
-***
+
 This site was created and designed with young adults and teenagers in mind who are looking for information and access to a very specific group in their own locality. It was built with a mobile-first approach, keeping in mind that most of the target audience would access the site via phone or other mobile device. The content is short and informative, the style colourful and reassuring.
 
 ### Wireframes
@@ -20,7 +20,7 @@ This site was created and designed with young adults and teenagers in mind who a
 **Colours:** A light purple is the main colour of the site, referring to the often represented colour of a lot of pride flags. The general rainbow theme of the pride movement is reflected in the logo and throughout the images on the site.
 
 ## Features
-***
+
 This site implements the very basic features of a static website.
 
 ### Existing Features
@@ -104,7 +104,7 @@ This site implements the very basic features of a static website.
     In the event of the club ever getting established, a section will be added to pin the clubs location on a map iframe, as well as the postal address.
 
 ## UX
-***
+
 ### Site goals
 The goal of this site is to provide LGBTQ+ teens and young adults of the wider Gort (Ireland) region with an easy to navigate club website. The site aims to present the necessary information in a simple, straight forward manner (including club rules, event schedule and details), as well as provide a way of contacting the club for potential new members.
 
@@ -129,7 +129,7 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
 - I want to be able to add more relevant images to the site and create a more extensive gallery.
 
 ## Testing
-***
+
 ### Validator Testing
 - HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
     - 1 Error: "Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)"; 
@@ -140,7 +140,7 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
 - Accessibility ([axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
     - added ```title``` and ```aria-label``` attributes to all social links and home link logo to improve accessibility
 - Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
-    - ![Lighthouse rating](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/lighthouse-rating.PNG?raw=true)
+     ![Lighthouse rating](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/lighthouse-rating.PNG?raw=true)
 - Browser Support ([CanIUse](https://caniuse.com/))
     - ```gap``` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
     - ```loading="lazy"``` attribute on images: not yet fully supported by most browsers; to be included in the future
@@ -198,7 +198,7 @@ As submit.html was not a valid action for form POST method, I had to use the Cod
 No unfixed bugs to date.
 
 ## Deployment
-***
+
 This site was deployed via GitHub pages using the following steps:
 - From the GitHub repository, navigate to **Settings**
 - In the left-hand navigation section select **Pages**
@@ -215,7 +215,7 @@ To run locally:
 Alternatively you can **Clone** or **Fork** this repository into your GitHub account.
 
 ## Credits
-***
+
 ### Media
 
 Photographs with specific Irish LGBTQ content were taken from:
